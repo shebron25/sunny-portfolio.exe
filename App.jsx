@@ -252,7 +252,6 @@ export default function VideoEditorPortfolio() {
         <div className="absolute inset-0 bg-white/50 backdrop-blur-[2px]" />
 
         <div className="relative z-10 max-w-4xl mx-auto text-center px-8">
-as
           <p className="uppercase tracking-[6px] text-sm mb-5 text-black/60">
             Connection Terminal
           </p>
