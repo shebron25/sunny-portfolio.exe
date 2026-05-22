@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Editor @Cit</title>
+
+  <style>
+    body {
+      margin: 0;
+      background: black;
+      color: #00ffff;
+      font-family: monospace;
+      overflow-x: hidden;
+    }
+
+    .bg {
+      position: fixed;
+      inset: 0;
+      background:
+        radial-gradient(circle at top left, rgba(255,0,255,0.15), transparent 30%),
+        radial-gradient(circle at bottom right, rgba(0,255,255,0.15), transparent 30%);
+      z-index: -1;
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 50px;
+      text-shadow: 0 0 20px cyan;
+      letter-spacing: 5px;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1000px;
+      margin: auto;
+      padding-bottom: 100px;
+    }
+
+    .video-card {
+      margin-top: 50px;
+      border: 1px solid rgba(0,255,255,0.3);
+      border-radius: 25px;
+      overflow: hidden;
+      background: rgba(255,255,255,0.03);
+      backdrop-filter: blur(10px);
+      box-shadow: 0 0 25px rgba(0,255,255,0.15);
+      transition: 0.3s;
+    }
+
+    .video-card:hover {
+      transform: scale(1.01);
+      box-shadow: 0 0 40px rgba(0,255,255,0.4);
+    }
+
+    video {
+      width: 100%;
+      display: block;
+      background: black;
+    }
+
+    .label {
+      padding: 15px;
+      font-size: 20px;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="bg"></div>
+
+<h1>EDITOR @CIT</h1>
+
+<div class="container">
+
+  <div class="video-card">
+    <video controls playsinline>
+      <source src="/E1.mp4" type="video/mp4">
+    </video>
+    <div class="label">E1</div>
+  </div>
+
+  <div class="video-card">
+    <video controls playsinline>
+      <source src="/E2.mp4" type="video/mp4">
+    </video>
+    <div class="label">E2</div>
+  </div>
+
+  <div class="video-card">
+    <video controls playsinline>
+      <source src="/E3.mp4" type="video/mp4">
+    </video>
+    <div class="label">E3</div>
+  </div>
+
+  <div class="video-card">
+    <video controls playsinline>
+      <source src="/E4.mp4" type="video/mp4">
+    </video>
+    <div class="label">E4</div>
+  </div>
+
+  <div class="video-card">
+    <video controls playsinline>
+      <source src="/E5.mp4" type="video/mp4">
+    </video>
+    <div class="label">E5</div>
+  </div>
+
+  <div class="video-card">
+    <video controls playsinline>
+      <source src="/E6.mp4" type="video/mp4">
+    </video>
+    <div class="label">E6</div>
+  </div>
+
+  <div class="video-card">
+    <video controls playsinline>
+      <source src="/E7.mp4" type="video/mp4">
+    </video>
+    <div class="label">E7</div>
+  </div>
+
+  <div class="video-card">
+    <video controls playsinline>
+      <source src="/E8.mp4" type="video/mp4">
+    </video>
+    <div class="label">E8</div>
+  </div>
+
+</div>
+
+</body>
+</html>
