@@ -6,8 +6,8 @@ export default function VideoEditorPortfolio() {
       <div className="absolute inset-0 opacity-5 pointer-events-none bg-[linear-gradient(to_bottom,transparent_50%,rgba(0,0,0,0.08)_50%)] bg-[length:100%_4px]" />
 
       {/* GLOW */}
-      <div className="absolute top-20 left-10 w-72 h-72 bg-black rounded-full blur-3xl opacity-10 animate-pulse" />
-      <div className="absolute bottom-10 right-10 w-72 h-72 bg-black rounded-full blur-3xl opacity-10 animate-pulse" />
+      <div className="absolute top-20 left-10 w-72 h-72 bg-black rounded-full blur-3xl opacity-10 animate-pulse" /> 
+      <div className="absolute bottom-10 right-10 w-72 h-72 bg-black rounded-full blur-3xl opacity-10 animate-pulse" /> 
 
       {/* NAVBAR */}
       <nav className="relative z-10 flex justify-between items-center p-6 border-b border-black/20 backdrop-blur-sm bg-white/70">
@@ -15,25 +15,25 @@ export default function VideoEditorPortfolio() {
           // SUNNY.EXE
         </h1>
 
-        <div className="hidden md:flex gap-8 text-sm uppercase tracking-widest">
+        <div className="hidden md:flex gap-8 text-sm uppercase tracking-widest"> 
           <a href="#about" className="hover:opacity-60 transition">About</a>
           <a href="#work" className="hover:opacity-60 transition">Projects</a>
           <a href="#contact" className="hover:opacity-60 transition">Contact</a>
         </div>
       </nav>
-
+ 
       {/* HERO */}
       <section className="relative z-10 min-h-[90vh] flex flex-col lg:flex-row items-center justify-center px-8 gap-14">
 
         {/* LEFT */}
         <div className="max-w-2xl text-center lg:text-left">
-
+ 
           <h2 className="text-5xl md:text-7xl font-black leading-tight text-black">
             YOUR CLIPS
             <br />
-            WERE BORING
+            WERE BORING 
             <br />
-            UNTIL NOW.
+            UNTIL NOW. 
           </h2>
 
           <p className="mt-8 text-lg text-black/70 leading-relaxed">
@@ -44,12 +44,12 @@ export default function VideoEditorPortfolio() {
 
           <div className="flex flex-wrap gap-4 mt-10 justify-center lg:justify-start">
 
-            <a
+            <a 
               href="#work"
               className="px-8 py-4 border border-black bg-black text-white hover:opacity-80 transition rounded-2xl uppercase tracking-widest text-sm inline-block"
             >
               View Projects
-            </a>
+            </a> 
 
             <a
               href="#contact"
@@ -95,15 +95,15 @@ export default function VideoEditorPortfolio() {
 
           <div className="border border-black/10 rounded-3xl bg-white p-10 shadow-xl">
 
-            <p className="tracking-[5px] uppercase text-sm mb-5 text-black/60">
+            <p className="tracking-[5px] uppercase text-sm mb-5 text-black/60"> 
               Player Stats
-            </p>
+            </p> 
 
             <h2 className="text-4xl md:text-5xl font-black text-black mb-8">
-              ABOUT_ME.DAT
+              ABOUT_ME.DAT 
             </h2>
 
-            <div className="grid md:grid-cols-2 gap-10 text-black/70 leading-relaxed text-lg">
+            <div className="grid md:grid-cols-2 gap-10 text-black/70 leading-relaxed text-lg"> 
 
               <p>
                 I’m a video editor focused on high-energy storytelling, cinematic pacing,
@@ -112,38 +112,38 @@ export default function VideoEditorPortfolio() {
 
               <p>
                 My editing style blends retro gaming vibes, futuristic aesthetics,
-                glitchcore visuals, and modern social-media pacing.
+                glitchcore visuals, and modern social-media pacing. 
               </p>
 
             </div>
-
+ 
             {/* SKILLS */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-5 mt-14">
 
               {[
-                "After Effects",
+                "After Effects", 
                 "Premiere Pro",
-                "DaVinci Resolve",
+                "DaVinci Resolve", 
                 "Logic Pro",
                 "Color Grading",
                 "Sound Design",
-                "Motion Graphics",
+                "Motion Graphics", 
                 "Cinematic Cuts",
               ].map((skill) => (
 
                 <div
                   key={skill}
-                  className="border border-black/10 bg-black/5 rounded-2xl p-4 text-center hover:scale-105 transition"
+                  className="border border-black/10 bg-black/5 rounded-2xl p-4 text-center hover:scale-105 transition" 
                 >
                   {skill}
                 </div>
 
-              ))}
+              ))} 
 
             </div>
 
           </div>
-
+ 
         </div>
       </section>
 
@@ -154,7 +154,7 @@ export default function VideoEditorPortfolio() {
 
           <div className="flex justify-between items-center mb-14 flex-wrap gap-4">
 
-            <div>
+            <div> 
               <p className="uppercase tracking-[5px] text-sm text-black/60">
                 Mission Archive
               </p>
@@ -179,7 +179,7 @@ export default function VideoEditorPortfolio() {
 
                   <img
                     src={
-                      item === 1
+                      item === 1 
                         ? "/project1.jpeg"
                         : item === 2
                         ? "/project2.jpeg"
@@ -191,7 +191,7 @@ export default function VideoEditorPortfolio() {
 
                   <div className="absolute inset-0 bg-white/10" />
 
-                </div>
+                </div> 
 
                 <div className="p-6">
 
@@ -200,7 +200,7 @@ export default function VideoEditorPortfolio() {
                     {item === 1
                       ? "Editor @Cit"
                       : item === 2
-                      ? "Freelancing Editor"
+                      ? "Freelancing Editor" 
                       : "Average 3AM Behaviour"}
 
                   </h3>
@@ -231,13 +231,13 @@ export default function VideoEditorPortfolio() {
                 </div>
               </div>
 
-            ))}
+            ))} 
 
           </div>
         </div>
-      </section>
+      </section> 
 
-      {/* CONTACT */}
+      {/* CONTACT */} 
       <section
         id="contact"
         className="relative z-10 min-h-screen flex items-center justify-center overflow-hidden group"
@@ -257,7 +257,7 @@ as
             Connection Terminal
           </p>
 
-          <h2 className="text-5xl md:text-7xl font-black text-black mb-6">
+          <h2 className="text-5xl md:text-7xl font-black text-black mb-6"> 
             HIRE ME
           </h2>
 
@@ -266,7 +266,7 @@ as
             or addictive to watch? You know where to find me.
           </p>
 
-          <div className="flex flex-wrap justify-center gap-6">
+          <div className="flex flex-wrap justify-center gap-6"> 
 
             <a
               href="mailto:shebronr@gmail.com"
@@ -275,23 +275,23 @@ as
               OPEN GMAIL
             </a>
 
-            <a
+            <a 
               href="https://www.instagram.com/thdooo_?igsh=bzY5ZGtsNWQwNGpm"
               className="px-8 py-4 rounded-2xl border border-black hover:bg-black hover:text-white transition uppercase tracking-widest"
             >
               OPEN INSTAGRAM
             </a>
 
-          </div>
+          </div> 
 
         </div>
       </section>
 
       {/* FOOTER */}
-      <footer className="relative z-10 border-t border-black/10 py-8 text-center text-black/40 text-sm tracking-widest">
+      <footer className="relative z-10 border-t border-black/10 py-8 text-center text-black/40 text-sm tracking-widest"> 
         © 2026 SUNNY.EXE — ALL RIGHTS RESERVED
       </footer>
 
-    </div>
+    </div> 
   );
 }
